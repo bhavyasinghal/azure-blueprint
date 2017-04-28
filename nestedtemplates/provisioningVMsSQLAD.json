@@ -203,7 +203,7 @@
           "osDisk": {
             "name": "osdisk",
             "vhd": {
-              "uri": "[concat('http://',variables('dcstorageName'),'.blob.core.usgovcloudapi.net/',parameters('vmContainerName'),'/',parameters('adPDCVMName'),'-osdisk.vhd')]"
+              "uri": "[concat('http://',variables('dcstorageName'),'.blob.core.windows.net/',parameters('vmContainerName'),'/',parameters('adPDCVMName'),'-osdisk.vhd')]"
             },
             "caching": "ReadWrite",
             "createOption": "FromImage"
